@@ -1,6 +1,3 @@
-body{
-    
-}
 .menu{
      
 position: absolute;
@@ -10,6 +7,18 @@ left: 0px;
 top: 0px;
 
 background: #7C2B79; 
+}
+.menu-texto{
+    position: absolute;
+    left: 1200px;
+color: #000;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.8px;
+
 }
 .cabecalho{
     position: absolute;
@@ -27,4 +36,54 @@ width: 247px;
 height: 303px;
 left: 32px;
 top: 6px;
+}
+.cabecalho-texto{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    display: flex;
+    width: 600px;
+height: 142px;
+flex-direction: column;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-size: 36px;
+font-family: Inter;
+letter-spacing: 3.6px;
+}
+.corpo{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    
+    width: 1440px;
+    height: 640px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #7C2B79 0%, rgba(124, 43, 121, 0.00) 100%);
+}
+.corpo-itens{
+
+    text-align: center;
+    padding: 16px 0;
+}
+.corpo-itens-img{
+    width: 280px;
+}
+.rodape{
+    width: 1440px;
+height: 114px;
+flex-shrink: 0;
+background: rgba(124, 43, 121, 0.78);
+}
+.rodape-texto{
+    color: #000;
+font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 6px;
 }
