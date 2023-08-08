@@ -40,10 +40,10 @@ top: 6px;
 .cabecalho-texto{
     display: flex;
     position: absolute;
-    top: 130px;
+    
     left: 480px;
     display: flex;
-    width: 600px;
+    width: 800px;
 height: 142px;
 flex-direction: column;
 flex-shrink: 0;
@@ -54,6 +54,9 @@ font-family: Inter;
 letter-spacing: 3.6px;
 }
 .corpo{
+    position: absolute;
+    top: 280px;
+    left:0px;
     display: grid;
     text-align: center;
     grid-template-columns: 30% 30% 30%;
@@ -73,12 +76,15 @@ letter-spacing: 3.6px;
     width: 280px;
 }
 .rodape{
+    top: 1000px;
+    position: absolute;
     width: 1440px;
 height: 114px;
 flex-shrink: 0;
 background: rgba(124, 43, 121, 0.78);
 }
 .rodape-texto{
+    text-align: center;
     color: #000;
 font-size: 20px;
 font-family: Inter;
